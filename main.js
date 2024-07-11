@@ -4,18 +4,18 @@
       delay: 1000,
     });
 
-    sr.reveal('#chat1, #chat2, #chat3, #chat4, #chat5, #chat6, #chat7', {
+    sr.reveal('#chat1, #chat2, #chat3, #chat4, #chat5, #chat6, #chat7, #chat8, #chat9', {
       viewFactor: 0,
       duration: 2000,
       origin: 'top',
       distance: '20px',
     }, 4000)
 
-    sr.reveal('#chat1, #chat3 ,#chat5, #chat7', {
+    sr.reveal('#chat1, #chat3 ,#chat5, #chat7, #chat9', {
       origin: 'top',
     }, 4000)
 
-    sr.reveal('#chat2, #chat4, #chat6', {
+    sr.reveal('#chat2, #chat4, #chat6, #chat8', {
       origin: 'bottom',
     }, 4000)
 

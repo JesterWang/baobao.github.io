@@ -79,6 +79,7 @@ h2 {
 
 /*Chats*/
 .row {
+    visibility: hidden;
     max-width: 960px;
     margin: auto;
 }
@@ -216,30 +217,22 @@ h2 {
     margin: auto;
 }
 
-#bg-image1, #bg-image2, #bg-image3 {
+#bg-image1, #bg-image2 {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-#bg-image3 {
-    background-image: url(img/card.jpeg);
-}
-
 #bg-image2 {
-    background-image: url(img/balloons.jpeg);
+    background-image: url(img/2.jpg);
 }
 
 #bg-image1 {
-    background-image: url(img/gifts.jpeg);
+    background-image: url(img/1.jpg);
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
     display: none;
-}
-
-.carousel-indicators li {
-    visibility: hidden;
 }
 
 body{
